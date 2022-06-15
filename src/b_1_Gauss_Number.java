@@ -41,5 +41,6 @@ public class b_1_Gauss_Number {
             }
         }
         System.out.println("\n========== 共进行" + TotalGame + "轮游戏，成功了" + SuccessGame + "次！==========");
+        System.out.println("");
     }
 }
