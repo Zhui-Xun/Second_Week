@@ -17,7 +17,11 @@ public class b_1_Gauss_Number {
             System.out.println("\n==========================================================");
             // 设置游戏参数
             Game_generate Game = Game_generate.game_generate_init(20, 50, 5);
+
+            // Game_generate Game1 = Game_generate.game_generate_init(20, 50, 5);
             // System.out.println("Random = "+Game.Get_NumberToGauss());
+            // System.out.println("Random = "+Game1.Get_NumberToGauss());
+
             // 正式游戏
             System.out.println("游戏开始，数字范围为：(" + Game.Get_RangeStart() + "," + Game.Get_RangeEnd() + ")，输入-1结束游戏！");
             TotalGame++;

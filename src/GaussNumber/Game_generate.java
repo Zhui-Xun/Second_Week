@@ -18,6 +18,7 @@ public class Game_generate {
     }
 
     // 游戏参数满足允许后，进行游戏初始化；
+    // >> TODO 因为构造方法是私有的，无法被外部使用，所以在调用"Game_generate"类的时候，无法构造"Game_generate"实例，只能通过静态方法来构造实例。
     public static Game_generate game_generate_init(int RangeStart, int RangeEnd, int Epoch) {
 
         // 判断数字范围是否合法
